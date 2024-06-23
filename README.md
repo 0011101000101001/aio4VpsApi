@@ -1,5 +1,5 @@
 # aio4vps
-### Fully asynchronous API. 
+### Fully asynchronous API for 4vps.su. 
 Dependencies
 ```
 aiohttp==3.9.5
