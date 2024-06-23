@@ -46,7 +46,7 @@ errors_dict = {' ': UnknownError,
 
 def create_exception_by_api_message(response: dict) -> NoReturn:
     message = response.get('errorMessage', ' ')
-    print(response)
+
     if isinstance(message, dict):
         message = response['errorMessage']['message']
 
