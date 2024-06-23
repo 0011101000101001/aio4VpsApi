@@ -1,7 +1,8 @@
 # aio4vps
 ### Fully asynchronous API for 4vps.su. 
 The API is fully implemented on the client. You can call the client.METHOD_NAME methods you see in https://4vps.su/page/api.
-Dependencies
+
+### Dependencies
 ```
 aiohttp==3.9.5
 ```
