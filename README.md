@@ -6,7 +6,7 @@ aiohttp==3.9.5
 ```
 
 Example
-```
+```python
 from FourVps.api import FourVpsClient
 import asyncio
 
