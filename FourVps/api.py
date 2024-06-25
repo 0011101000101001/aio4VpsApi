@@ -264,7 +264,6 @@ class FourVpsClient:
 
         return bool(result.get('data'))
 
-    # TODO: Проверить работоспособность, доебать разраба пока не пофиксит
     async def change_tariff(self, server_id: int, preset_id: int) -> bool:
         result = await self.__post('/api/action/changeTarif', json={'serverid': server_id,
                                                                     'preset': preset_id})
